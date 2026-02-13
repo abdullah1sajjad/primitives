@@ -32,7 +32,7 @@
     "clean": "rm -rf dist",
     "reset": "rm -rf dist node_modules",
     "typecheck": "tsc --noEmit",
-    "build": "radix-build"
+    "build": "node init && radix-build"
   },
   "devDependencies": {
     "@repo/builder": "workspace:*",

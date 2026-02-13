@@ -32,7 +32,7 @@
     "clean": "rm -rf dist",
     "reset": "rm -rf dist node_modules",
     "typecheck": "tsc --noEmit",
-    "build": "radix-build"
+    "build": "node init && radix-build"
   },
   "dependencies": {
     "@radix-ui/react-context": "workspace:*",
